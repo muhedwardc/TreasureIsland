@@ -1,0 +1,52 @@
+#artikel {
+    padding: 50px 20px 20px 20px;
+}
+
+.list-artikel {
+    padding-right: 20px;
+}
+
+.artikel-item {
+    border-bottom: 1px solid #eee;
+}
+
+.artikel-item div img {
+    width: 100%;
+}
+
+.artikel-item div p {
+    font-size: 1em;
+}
+
+.artikel-populer {
+    border: 1px solid #eee;
+    padding: 0;
+}
+
+.artikel-populer .head {
+    background-color: black;
+    color: white;
+}
+
+.artikel-populer .head h5 {
+    padding: 10px;
+    margin: 0;
+}
+
+.artikel-populer ul {
+    padding: 0 10px;
+}
+
+.artikel-populer li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.artikel-populer li a {
+    color: black;
+    font-style: italic;
+}
+
+.artikel-populer li a span {
+    font-size: .8em;
+}
