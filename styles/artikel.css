@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.artikel-item a {
+    font-style: italic;
+}
+
 .artikel-item div p {
     font-size: 1em;
 }
@@ -49,4 +53,12 @@
 
 .artikel-populer li a span {
     font-size: .8em;
+}
+
+.pagination-div {
+    text-align: center;
+}
+
+.pagination li.active {
+    background-color: #1d98fd;
 }

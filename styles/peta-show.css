@@ -1,0 +1,103 @@
+section {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+#peta > div:first-child {
+    padding: 100px 40px 40px 40px;
+    background-color: #f4f4f4;
+}
+
+#peta img {
+    width: 80%;
+}
+
+#deskripsi-lanjut {
+    padding: 0 20px;
+}
+
+#deskripsi-lanjut > p {
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+#galeri-terkait {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+#galeri-terkait > .row > .col {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 200px;
+}
+
+#galeri-terkait > .row > .col > .galeri-item > a > img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+#galeri-terkait > .row > .col > .galeri-item > a > img:hover {
+    transform: scale(1.2);
+}
+
+#artikel-terkait {
+    padding-top: 20px;
+}
+
+.konten-artikel {
+    width: 100%;
+    position: relative;
+}
+
+.konten-artikel > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.artikel-item > .artikel-img {
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.artikel-item > .artikel-img > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+    transition: transform .3s;
+}
+
+.artikel-item > .artikel-img > img:hover {
+    transform: scale(1.2);
+}
+
+.artikel-item > div {
+    background-color: #111112;
+    padding: 20px 10px 20px 10px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.artikel-item > div > h5 {
+    margin-top: 0;
+    padding-top: 0;
+}
