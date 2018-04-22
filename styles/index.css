@@ -302,6 +302,17 @@
     font-weight: 2px;
 }
 
+.deskripsi-paket > ul > li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.deskripsi-paket > ul > li > .icon-large {
+    display: flex;
+}
+
 .deskripsi-paket ul li i {
     padding-right: 20px;
     color: #1d98fd;
