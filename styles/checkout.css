@@ -1,0 +1,170 @@
+.row {
+    padding: 0 !important;
+}
+
+main.row {
+    padding-top: 70px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+main > div {
+    padding: 0 40px !important;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main.row > div:first-child {
+    position: relative;
+    background: url(images/paket/01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.isi-paket {
+    z-index: 2;
+    padding: 20px;
+    color: white;
+}
+
+.isi-paket p {
+    margin: 0;
+    padding: 0;
+}
+
+.isi-paket > p:first-child {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.isi-paket > p:nth-child(2) {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #1d98fd;
+    margin-bottom: 10px;
+}
+
+main > div:last-child {
+    padding: 20px;
+}
+
+input:focus {
+    border-bottom: 1px solid #1d98fd !important;
+}
+
+textarea:focus {
+    border: 2px solid #1d98fd !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+form input[type=submit] {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1d98fd;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border: none;
+}
+
+.judul-paket {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 200;
+}
+
+.mata-uang {
+    font-size: 1.8em;
+    color: #1d98fd;
+}
+
+.harga {
+    display: inline-block;
+    font-size: 3.5em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #1d98fd;
+}
+
+.paket-container {
+    width: 100%;
+    text-align: left;
+    color: rgb(104, 104, 104);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 10px;
+    text-align: left;
+}
+
+.content {
+    color: white;
+    width: 100%;
+    position: relative;
+    border: 2px solid #434343;
+}
+
+.deskripsi-paket {
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 20px;
+}
+
+.deskripsi-paket:nth-child(2n)  {
+    background-color: white;
+}
+
+.deskripsi-paket ul {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 2px;
+}
+
+.deskripsi-paket > ul > li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.deskripsi-paket > ul > li > .icon-large {
+    display: flex;
+}
+
+.deskripsi-paket ul li i {
+    padding-right: 20px;
+    color: #1d98fd;
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.paket-img-1 {
+    background: url("images/paket/01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

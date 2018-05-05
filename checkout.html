@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/ionicons/ionicons.min.css">
+    <link rel="stylesheet" href="styles/lightbox.min.css">
+    <link rel="stylesheet" href="styles/materialize.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/checkout.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="sticky">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                <span class="blue-text-brand">Treasure</span> Tomia Timur</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="artikel.html">Artikel</a>
+                </li>
+                <li>
+                    <a href="galeri.html">Galeri</a>
+                </li>
+                <li>
+                    <a href="#">Rencana Wisata</a>
+                </li>
+                <li>
+                    <a href="#">Paket Wisata</a>
+                </li>
+                <li>
+                    <a href="#">Destinasi Wisata</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="row">
+        <div class="col s12 m6 l6 row">
+            <div class="content paket-1">
+                <div class="paket-img-1">
+                    <div class="overlay">
+                        <span class="judul-paket">Indomie Telur</span>
+                        <span class="mata-uang">IDR </span><span class="harga">200.000</span>
+                    </div>
+                </div>
+                <div class="paket-container">
+                    <div class="deskripsi-paket">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, assumenda? At placeat nesciunt sapiente aperiam voluptas quos velit.</p>
+                    </div>
+                    <div class="deskripsi-paket">
+                        <ul>
+                            <li><i class="icon-large ion-ios-checkmark-empty"></i>Pemandu Wisata</li>
+                            <li><i class="icon-large ion-ios-checkmark-empty"></i>Penginapan 2 Hari 1</li>
+                            <li><i class="icon-large ion-ios-checkmark-empty"></i>Makan Lengkap</li>
+                            <li><i class="icon-large ion-ios-checkmark-empty"></i>Peralatan Menyelam</li>
+                            <li><i class="icon-large ion-ios-checkmark-empty"></i>Tour ke desa A, B, C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col sm12 m6 l6">
+            <p>Detail Pesanan</p>
+            <form action="">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <label for="nama">Nama</label>
+                        <input type="text" name="nama" id="nama" placeholder="nama lengkap">
+                    </div>
+                    <div class="col s12 m12 l7">
+                        <label for="nama">Email</label>
+                        <input type="email" name="email" id="email" placeholder="email">
+                    </div>
+                    <div class="col s12 m12 l5">
+                        <label for="nama">Nomor Telepon</label>
+                        <input type="text" name="noTelp" id="noTelp" placeholder="nomor telepon">
+                    </div>
+                    <div class="col s12 m12 l3">
+                        <label for="nama">Banyak Paket</label>
+                        <input type="number" name="kuantitas" id="kuantitas" value="1" min="1" oninput="validity.valid||(value='1');">
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <label for="nama">Alamat</label>
+                        <textarea style="margin-top: 5px;" name="alamat" id="alamat" rows="4" placeholder="alamat lengkap"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Pesan">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="about-footer row hide-on-med-and-down">
+            <div class="col m4 l4">
+                <a href="#" class="brand-logo">
+                    <span class="blue-text-brand">Treasure</span> Tomia Timur</a>
+                <h5>Tentang Treasure Tomia Timur</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, commodi voluptatem nobis obcaecati eligendi
+                    sed qui, inventore quasi assumenda dignissimos rem ipsa rerum! Iure nesciunt necessitatibus alias, non
+                    provident eius.</p>
+                <div class="grey-text text-lighten-1 social-media">
+                    <a href="#">
+                        <i class="ion-large ion-social-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ion-large ion-social-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ion-large ion-social-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col m4 l4">
+                <div class="container">
+                    <h5>Fasilitas</h5>
+                    <ul class="list-footer">
+                        <li><i class="ion-small ion-chevron-right"></i>Kegiatan di Tomia Timur</li>
+                        <li><i class="ion-small ion-chevron-right"></i>Destinasi Wisata</li>
+                        <li><i class="ion-small ion-chevron-right"></i>Tempat Penginapan</li>
+                        <li><i class="ion-small ion-chevron-right"></i>Tempat Makan</li>
+                        <li><i class="ion-small ion-chevron-right"></i>Transportasi Menuju Tomia Timur</li>
+                        <li><i class="ion-small ion-chevron-right"></i>Paket Wisata</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col m4 l4 contact">
+                <h5>Tanya Tomia Timur?</h5>
+                <div>
+                    Email:
+                    <br/>
+                    <i class="ion-small ion-chevron-right"></i> contact.tomiatimur@gmail.com
+                </div>
+                <div>
+                    Telepon:
+                    <br/>
+                    <i class="ion-small ion-chevron-right"></i> (022) 222222
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            © 2018 Copyright KKN-PPM UGM Tomia Timur, All rights reserved.
+        </div>
+    </footer>
+
+    <script src="scripts/formChecker.js"></script>
+</body>
+
+</html>
