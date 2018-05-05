@@ -1,0 +1,117 @@
+#detailArtikel {
+    padding: 80px 40px;
+}
+
+.properti-artikel {
+    margin-bottom: 10px;
+}
+
+.properti-artikel > p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.properti-artikel > p:last-child {
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.gambar-artikel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.isian-artikel {
+    text-align: justify;
+    text-indent: 4em;
+}
+
+.artikel-populer {
+    border: 1px solid #eee;
+    padding: 0;
+}
+
+.artikel-populer .head {
+    background-color: black;
+    color: white;
+}
+
+.artikel-populer .head h5 {
+    padding: 10px;
+    margin: 0;
+}
+
+.artikel-populer ul {
+    padding: 0 10px;
+}
+
+.artikel-populer li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.artikel-populer li a {
+    color: black;
+    font-style: italic;
+}
+
+.artikel-populer li a span {
+    font-size: .8em;
+}
+
+
+#artikel-terkait {
+    padding: 0 40px;
+}
+
+.konten-artikel {
+    width: 100%;
+    position: relative;
+}
+
+.konten-artikel > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.artikel-item > .artikel-img {
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.artikel-item > .artikel-img > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+    transition: transform .3s;
+}
+
+.artikel-item > .artikel-img > img:hover {
+    transform: scale(1.2);
+}
+
+.artikel-item > div {
+    background-color: #111112;
+    padding: 20px 10px 20px 10px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.artikel-item > div > h5 {
+    margin-top: 0;
+    padding-top: 0;
+}
