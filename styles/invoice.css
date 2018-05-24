@@ -1,0 +1,140 @@
+.right-align {
+    text-align: right;
+}
+
+p {
+    margin: 0;
+}
+
+#invoice {
+    max-width: 800px;
+    margin: 0 auto; 
+    border: 1px solid #1d98fd;
+    margin-top: 10px;
+}
+
+#invoice > div {
+    padding: 20px 30px;
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d98fd;
+    color: white;
+    align-items: center;
+}
+
+.invoice-header > div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.invoice-header > div:first-child > img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.invoice-header > div:first-child > p {
+    font-size: 2em;
+    margin: 0;
+    line-height: 1;
+}
+
+.invoice-header > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice-header > div > div {
+    padding-left: 20px;
+}
+
+.invoice-header > div > div > p {
+    line-height: 1.5;
+    margin: 0;
+    font-size: .9em;
+    font-weight: 200;
+}
+
+.info-pemesan {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.info-judul {
+    color: rgb(143, 143, 143);
+    margin-bottom: 3px;
+}
+
+.info-pemesan p {
+    font-size: .9em;
+}
+
+.info-pemesan > div:first-child {
+    display: flex;
+}
+
+.info-pemesan > div > div {
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.info-pemesan > div > div > div:first-child {
+    margin-bottom: 10px;
+}
+
+p.status-pembayaran {
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+p.waiting {
+    background-color: red;
+}
+
+p.success {
+    background-color: green;
+}
+
+p.biaya-total {
+    font-size: 2em;
+    color: #1d98fd;
+    margin-top: -10px;
+}
+
+.detail-tiket-pesanan {
+    
+}
+
+.detail-tiket-pesanan > div {
+    border-top: 2px solid #1d98fd;
+}
+
+#invoice .pesan-invoice {
+    padding-top: 0;
+    font-size: .6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesan-invoice > div:first-child {
+    max-width: 70%;
+}
+
+#invoice .pesan-invoice .cetak-kartu {
+    font-size: 1.5em;
+    background-color: #1d98fd;
+    color: white;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgb(92, 92, 92);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
