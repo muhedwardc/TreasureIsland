@@ -3,7 +3,6 @@
 }
 
 #main-carousel {
-    height: calc(100vh);
     max-height: 100%;
     position: relative;
     color: white;
@@ -16,8 +15,8 @@
 .carousel.carousel-slider {
     top: 0;
     left: 0;
-    height: calc(100vh);
-    max-height: 100%;
+    height: 100vh;
+    max-height: 100vh;
 }
 
 #main-carousel .arrows {
@@ -458,4 +457,91 @@
 
 .back-to-top-btn a {
     color: white;
+}
+
+/* Responsive */
+@media only screen and (max-width: 800px) {
+    .carousel.carousel-slider .carousel-item {
+        min-height: 0px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    section#artikel {
+        padding-bottom: 0px;
+    }
+
+    #paket-wisata {
+        padding-bottom: 0px;
+    }
+
+    .horizontal-list > div > div {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .horizontal-list.row .col img {
+        width: 50px;
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .horizontal-list > div > p {
+        text-align: left;
+    }
+
+    .horizontal-list.row .col h5 {
+        display: inline;
+        margin: 0;
+    }
+
+    .caption {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel.carousel-slider {
+        max-height: 200px; 
+    }
+    
+    #main-carousel .carousel.carousel-slider .carousel-item .caption h2 {
+        font-size: 1.5em;
+    }
+    
+    #main-carousel .carousel.carousel-slider .carousel-item .caption p {
+        font-size: 1.5em;
+        display: none;
+    }
+    
+    .caption-kanan {
+        padding: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    #shortcut .horizontal-list .col {
+        border: none;
+    }
+
+    .destinasi-terbaru.col.s12.m4.l4 {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .kategori-artikel.col.s12.m12.l12.row {
+        padding: 0;
+    }
+
+    .paket-list > div {
+        margin-bottom: 10px;
+    }
 }

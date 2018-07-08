@@ -115,3 +115,20 @@
     margin-top: 0;
     padding-top: 0;
 }
+
+@media only screen and (max-height: 800px) {
+    #detailArtikel {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+    }
+
+    div.isian-artikel {
+        margin-bottom: 50px;
+    }
+
+    #artikel-terkait {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

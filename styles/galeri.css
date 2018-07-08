@@ -62,3 +62,26 @@
 .pagination li.active {
     background-color: #1d98fd;
 }
+
+@media only screen and (max-width: 800px) {
+    #page-header {
+        height: 350px;  
+    }
+
+    .galeri-img .caption-galeri-img:hover .caption-text {
+        transform: none;
+    }
+
+    .caption-text {
+        bottom: 0px;
+    }
+
+    #page-header .header-overlay {
+        padding: 20px 10px;
+    }
+
+    #page-header .header-overlay .header-content h1 {
+        font-size: 2.5em;
+        margin-top: 80px;
+    }
+}
