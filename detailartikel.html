@@ -22,26 +22,9 @@
 <body>
     <nav class="sticky">
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><span class="blue-text-brand">Treasure</span> Tomia Timur</a>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger button-collapse" data-activates="mobile-menu"><i class="material-icons" id="hamburger-icon">menu</i></a>
-            <ul id="comp-menu" class="right hide-on-med-and-down">
-                <li>
-                    <a href="artikel.html">Artikel</a>
-                </li>
-                <li>
-                    <a href="galeri.html">Galeri</a>
-                </li>
-                <li>
-                    <a href="#">Rencana Wisata</a>
-                </li>
-                <li>
-                    <a href="#">Paket Wisata</a>
-                </li>
-                <li>
-                    <a href="#">Destinasi Wisata</a>
-                </li>
-            </ul>
-            <ul class="side-nav" id="mobile-menu">
+            <a href="#main-carousel" class="brand-logo"><span class="blue-text-brand">Treasure</span> Tomia Timur</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li>
                     <a href="artikel.html">Artikel</a>
                 </li>
@@ -60,6 +43,24 @@
             </ul>
         </div>
     </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="artikel.html">Artikel</a>
+        </li>
+        <li>
+            <a href="galeri.html">Galeri</a>
+        </li>
+        <li>
+            <a href="#">Rencana Wisata</a>
+        </li>
+        <li>
+            <a href="#">Paket Wisata</a>
+        </li>
+        <li>
+            <a href="#">Destinasi Wisata</a>
+        </li>
+    </ul>
 
     <section id="detailArtikel"  class="row">
         <div class="properti-artikel col s12 m12 l12">
@@ -244,6 +245,19 @@
             © 2018 Copyright KKN-PPM UGM Tomia Timur, All rights reserved.
         </div>
     </footer>
+
+    <script src="scripts/resources/jquery-3.3.1.min.js"></script>
+    <script src="scripts/resources/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {
+                edge: 'left',
+                draggable: true
+            });
+        });
+    </script>
 </body>
 
 </html>
