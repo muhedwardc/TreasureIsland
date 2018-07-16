@@ -48,12 +48,12 @@ nav.sticky ul li a {
 
 @media only screen and (max-width: 420px) {
     nav a.brand-logo {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 }
 
 @media only screen and (max-width: 800px) {
     nav a.brand-logo {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 }
