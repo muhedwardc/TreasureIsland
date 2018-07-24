@@ -15,6 +15,10 @@ nav ul li a {
     transition: font-size 1s, line-height 1s, padding 1s;
 }
 
+nav .dropdown-trigger > i {
+    transition: line-height 1s;
+}
+
 nav ul li a:hover {
     border-bottom: 2px solid #1d98fd;
     background-color: transparent;
@@ -43,6 +47,22 @@ nav.sticky a {
 
 nav.sticky ul li a {
     font-size: 1em;
+    line-height: 50px;
+}
+
+nav.sticky .dropdown-trigger > li > a > i {
+    line-height: 1;
+}
+
+.dropdown-content {
+    overflow: hidden;
+}
+
+.dropdown-content > li > a {
+    color: black;
+}
+
+nav.sticky .dropdown-trigger > i {
     line-height: 50px;
 }
 

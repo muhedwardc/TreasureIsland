@@ -37,7 +37,16 @@
                 </li>
                 <li>
                     <a href="#">Destinasi Wisata</a>
+                </li>                
+                <li>
+                    <a class="dropdown-trigger" data-target="order-menu" href="#">Order<i class="material-icons right">arrow_drop_down</i></a>
                 </li>
+            </ul>
+
+            <ul id="order-menu" class="dropdown-content">
+                <li><a href="#">Konfirmasi</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#">Invoice</a></li>
             </ul>
         </div>
     </nav>
@@ -58,6 +67,14 @@
         <li>
             <a href="#">Destinasi Wisata</a>
         </li>
+        <li>
+            <a class="dropdown-trigger-mobile" data-target="order-menu-mobile" href="#">Order<i class="material-icons right" style="line-height: 2">arrow_drop_down</i></a>
+        </li>
+    </ul>
+
+    <ul id="order-menu-mobile" class="dropdown-content">
+        <li><a href="">Konfirmasi</a></li>
+        <li><a href="">Invoice</a></li>
     </ul>
 
     <header id="page-header">
@@ -231,15 +248,6 @@
 
     <script src="scripts/resources/jquery-3.3.1.min.js"></script>
     <script src="scripts/resources/materialize.min.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, {
-                edge: 'left',
-                draggable: true
-            });
-        });
-    </script>
+    <script src="scripts/nav.js"></script>
 </body>
 </html>

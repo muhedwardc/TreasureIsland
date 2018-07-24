@@ -29,16 +29,43 @@
                 <li><a href="#rencana-wisata">Rencana Wisata</a></li>
                 <li><a href="#paket-wisata">Paket Wisata</a></li>
                 <li><a href="#peta">Destinasi Wisata</a></li>
+                <li>
+                    <a class="dropdown-trigger" data-target="order-menu" href="#">Order<i class="material-icons right">arrow_drop_down</i></a>
+                </li>
+            </ul>
+    
+            <ul id="order-menu" class="dropdown-content">
+                <li><a href="#">Konfirmasi</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#">Invoice</a></li>
             </ul>
         </div>
     </nav>
-    
+        
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#artikel">Artikel</a></li>
-        <li><a href="#galeri">Galeri</a></li>
-        <li><a href="#rencana-wisata">Rencana Wisata</a></li>
-        <li><a href="#paket-wisata">Paket Wisata</a></li>
-        <li><a href="#peta">Destinasi Wisata</a></li>
+        <li>
+            <a href="artikel.html">Artikel</a>
+        </li>
+        <li>
+            <a href="galeri.html">Galeri</a>
+        </li>
+        <li>
+            <a href="#">Rencana Wisata</a>
+        </li>
+        <li>
+            <a href="#">Paket Wisata</a>
+        </li>
+        <li>
+            <a href="#">Destinasi Wisata</a>
+        </li>
+        <li>
+            <a class="dropdown-trigger-mobile" data-target="order-menu-mobile" href="#">Order<i class="material-icons right" style="line-height: 2">arrow_drop_down</i></a>
+        </li>
+    </ul>
+
+    <ul id="order-menu-mobile" class="dropdown-content">
+        <li><a href="">Konfirmasi</a></li>
+        <li><a href="">Invoice</a></li>
     </ul>
     
     <section id="main-carousel">
@@ -582,31 +609,7 @@
     <script src="scripts/nav-waypoint.js"></script>
     <script src="scripts/resources/lightbox.min.js"></script>
     <script src="scripts/img-view.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, {
-                edge: 'left',
-                draggable: true
-            });
-        });
-
-        let listPaket = new Array();
-        let listPaketHeight = new Array();
-        let deskripsiPaket = document.querySelectorAll(".deskripsi-paket");
-
-        for (let i = 1; i < deskripsiPaket.length; i+=3) {
-            listPaket.push(deskripsiPaket[i]);
-            listPaketHeight.push(deskripsiPaket[i].clientHeight);
-        }
-
-        listPaketHeight.sort();
-        let maxHeight = listPaketHeight[listPaketHeight.length - 1];
-
-        for (let paket of listPaket) {
-            paket.style.height = maxHeight + 'px';
-        }            
-    </script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
