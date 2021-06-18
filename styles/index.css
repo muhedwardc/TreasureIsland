@@ -1,556 +1,559 @@
 .container {
-    width: 90%;
+  width: 90%;
 }
 
 #main-carousel {
-    max-height: 100%;
-    position: relative;
-    color: white;
+  max-height: 100%;
+  position: relative;
+  color: white;
 }
 
 .opacity-carousel {
-    background-color: rgba(0, 0, 0, 0.726);
+  background-color: rgba(0, 0, 0, 0.726);
 }
 
 .carousel.carousel-slider {
-    top: 0;
-    left: 0;
-    height: 100vh;
-    max-height: 100vh;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  max-height: 100vh;
 }
 
 #main-carousel .arrows {
-    color: white;
-    position: absolute;
-    width: 100%;
-    padding: 0 2%;
-    top: 50%;
-    z-index: 10;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding: 0 2%;
+  top: 50%;
+  z-index: 10;
 }
 
 .carousel-item {
-    width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .caption {
-    width: 100%;
-    height: 100%;
-    padding: 200px 100px 100px 100px;
-    padding-right: 30%;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 200px 100px 100px 100px;
+  padding-right: 30%;
+  position: absolute;
 }
 
 #main-carousel .carousel.carousel-slider .carousel-item .caption h2 {
-    font-size: 5em;
-    padding-bottom: 20px;
+  font-size: 5em;
+  padding-bottom: 20px;
 }
 
 #main-carousel .carousel.carousel-slider .carousel-item .caption p {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .caption-kanan {
-    padding: 200px 100px 100px 100px;
-    right: 0;
-    padding-left: 30%;
-    text-align: right;
+  padding: 200px 100px 100px 100px;
+  right: 0;
+  padding-left: 30%;
+  text-align: right;
 }
 
 .caption-tengah {
-    padding: 200px 100px 100px 100px;
-    width: 100%;
-    text-align: center;
-    padding-right: 15%;
-    padding-left: 15%;
+  padding: 200px 100px 100px 100px;
+  width: 100%;
+  text-align: center;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .arrow {
-    font-size: 2em;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-weight: bold;
-    cursor: pointer;
+  font-size: 2em;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .arrow div i {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .arrow:hover {
-    background-color: #43434379;
+  background-color: #43434379;
 }
 
 #shortcut {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 #shortcut .horizontal-list .col {
-    border-right: 1px dashed rgb(216, 216, 216);
+  border-right: 1px dashed rgb(216, 216, 216);
 }
 
 #shortcut .horizontal-list .col.last {
-    border-right: none;
+  border-right: none;
 }
 
 .horizontal-list {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .horizontal-list.row .col img {
-    object-fit: cover;
-    object-position: center;
-    width: 40%;
-    height: auto;
+  object-fit: cover;
+  object-position: center;
+  width: 40%;
+  height: auto;
 }
 
 #artikel {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-size: .85em;
-    background-color: #fcfcfc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 0.85em;
+  background-color: #fcfcfc;
 }
 
 .destinasi-favorit-img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .kategori-artikel div {
-    border-bottom: 2px solid purple;
-    padding: 0 0 2px 0;
+  border-bottom: 2px solid purple;
+  padding: 0 0 2px 0;
 }
 
 .kategori-artikel span {
-    background-color: purple;
-    border: 1px solid purple;
-    padding: 5px 50px 2px 5px;
-    color: white;
+  background-color: purple;
+  border: 1px solid purple;
+  padding: 5px 50px 2px 5px;
+  color: white;
 }
 
 .gambar-artikel {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100px;
 }
 
 .judul-artikel {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 .judul-artikel.besar {
-    display: block;
-    font-size: 1.2em;
-    font-weight: bold;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #galeri {
-    text-align: center;
-    padding-bottom: 60px;
-    padding-top: 40px;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
 }
 
 #galeri .row .col {
-    padding: 0 5px;
-    margin-bottom: 10px;
-    height: 200px;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  height: 200px;
 }
 
 .galeri-img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: block;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
 }
 
 .galeri-img .caption-galeri-img {
-    position: absolute;
-    z-index: 1;
-    color: white;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background-color: transparent;
-    transition: transform .5s;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: transparent;
+  transition: transform 0.5s;
 }
 
 .caption-text {
-    text-align: right;
-    position: absolute;
-    z-index: 2;
-    bottom: -50px;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.712);
-    transition: transform .5s;
+  text-align: right;
+  position: absolute;
+  z-index: 2;
+  bottom: -50px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.712);
+  transition: transform 0.5s;
 }
 
 .galeri-img .caption-galeri-img:hover .caption-text {
-    transform: translateY(-50px);
+  transform: translateY(-50px);
 }
 
 .galeri-img {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 #galeri .row .col img {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    opacity: .9;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
 }
 
 #rencana-wisata {
-    color: white;
-    padding: 60px 0 100px 0;
-    background-color: #64b5f6;
+  color: white;
+  padding: 60px 0 100px 0;
+  background-color: #64b5f6;
 }
 
 #rencana-wisata .container h2 {
-    margin: 0;
-    margin-bottom: 60px;
+  margin: 0;
+  margin-bottom: 60px;
 }
 
 #rencana-wisata h5 {
-    color: black;
+  color: black;
 }
 
 #rencana-wisata .horizontal-list {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 #rencana-wisata .container a.lanjut {
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.3em;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
 }
 
 #paket-wisata {
-    padding: 30px 0 80px 0;
+  padding: 30px 0 80px 0;
 }
 
 #paket-wisata h2 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .judul-paket {
-    display: block;
-    text-transform: uppercase;
-    font-size: 1.8em;
-    font-weight: 200;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 200;
 }
 
 .mata-uang {
-    font-size: 1.8em;
-    color: #1d98fd;
+  font-size: 1.8em;
+  color: #1d98fd;
 }
 
 .harga {
-    display: inline-block;
-    font-size: 3.5em;
-    font-weight: 300;
-    letter-spacing: 2px;
-    color: #1d98fd;
+  display: inline-block;
+  font-size: 3.5em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #1d98fd;
 }
 
 .paket-container {
-    width: 100%;
-    text-align: left;
-    color: rgb(104, 104, 104);
+  width: 100%;
+  text-align: left;
+  color: rgb(104, 104, 104);
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.705);
-    padding: 10px;
-    text-align: left;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.705);
+  padding: 10px;
+  text-align: left;
 }
 
 .content {
-    color: white;
-    width: 100%;
-    position: relative;
-    box-shadow: 1px 2px 2px 2px rgb(228, 228, 228);
-    border-radius: 10px;
+  color: white;
+  width: 100%;
+  position: relative;
+  box-shadow: 1px 2px 2px 2px rgb(228, 228, 228);
+  border-radius: 10px;
 }
 
 .deskripsi-paket {
-    background-color: #fcfcfc;
-    border-bottom: 1px solid #e8e8e8;
-    padding: 10px 20px;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 20px;
 }
 
-.deskripsi-paket:nth-child(2n)  {
-    background-color: white;
+.deskripsi-paket:nth-child(2n) {
+  background-color: white;
 }
 
 .deskripsi-paket ul {
-    width: 90%;
-    margin: 0 auto;
-    text-align: left;
-    font-size: 1.2em;
-    font-weight: 2px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 2px;
 }
 
 .deskripsi-paket > ul > li {
-    margin-bottom: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .deskripsi-paket > ul > li > .icon-large {
-    display: flex;
+  display: flex;
 }
 
 .deskripsi-paket ul li i {
-    padding-right: 20px;
-    color: #1d98fd;
-    display: inline;
-    font-weight: bold;
-    font-size: 1.5em;
+  padding-right: 20px;
+  color: #1d98fd;
+  display: inline;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .deskripsi-paket .pesan-btn {
-    background-color: transparent;
-    border: 1px solid #1d98fd;
-    border-radius: 200px;
-    font-size: 1.5em;
-    font-weight: 200;
-    padding: 10px 30px;
-    color: #1d98fd;
-    transition: background-color .3s, color .3s;
+  background-color: transparent;
+  border: 1px solid #1d98fd;
+  border-radius: 200px;
+  font-size: 1.5em;
+  font-weight: 200;
+  padding: 10px 30px;
+  color: #1d98fd;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .deskripsi-paket .pesan-btn:hover {
-    color: white;
-    background-color: #1d98fd;
+  color: white;
+  background-color: #1d98fd;
 }
 
 .paket-img-1 {
-    background: url("images/paket/01.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url("images/paket/01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .paket-2 {
-    background: url("images/paket/02.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url("images/paket/02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .paket-3 {
-    background: url("images/paket/03.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url("images/paket/03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #peta {
-    padding-top: 50px;
-    height: 100vh;
-    color: black;
-    background-color: #fcfcfc;
+  padding-top: 50px;
+  height: 100vh;
+  color: black;
+  background-color: #fcfcfc;
 }
 
 #peta .row {
-    height: 100%;
+  height: 100%;
 }
 
 .deskripsi-peta.col {
-    margin-top: -80px;
-    height: 100%;
-    padding: 30px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  margin-top: -80px;
+  height: 100%;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .deskripsi-peta p {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 .btn-default-effect {
-    margin-top: 20px;
-    color: #34a0f8;
-    background-color: transparent;
-    border: 1px solid #34a0f8;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    letter-spacing: 1px;
-    transition: background-color .3s, border .3s, color .3s;
+  margin-top: 20px;
+  color: #34a0f8;
+  background-color: transparent;
+  border: 1px solid #34a0f8;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
 .btn-default-effect:hover {
-    color: white;
-    background-color: #34a0f8;
+  color: white;
+  background-color: #34a0f8;
 }
 
 .btn-inverse {
-    margin-top: 20px;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    letter-spacing: 1px;
-    transition: background-color .3s, border .3s, color .3s;
+  margin-top: 20px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
 .btn-inverse:hover {
-    color: white;
-    background-color: #34a0f8;
+  color: white;
+  background-color: #34a0f8;
 }
 
 .gambar-peta {
-    height: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .gambar-peta img {
-    margin-top: -100px;
-    width: 90%;
+  margin-top: -100px;
+  width: 90%;
 }
 
 .back-to-top {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
 }
 
 .back-to-top-btn {
-    color: white;
-    padding: 5px 15px;
-    font-size: 3em;
-    background-color: rgba(0, 0, 0, 0.274);
-    border: none;
-    cursor: pointer;
+  color: white;
+  padding: 5px 15px;
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.274);
+  border: none;
+  cursor: pointer;
 }
 
 .back-to-top-btn:focus {
-    background-color: rgba(0, 0, 0, 0.274);
+  background-color: rgba(0, 0, 0, 0.274);
 }
 
 .back-to-top-btn a {
-    color: white;
+  color: white;
 }
 
 .paket-list > div {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Responsive */
 @media only screen and (max-width: 800px) {
-    iframe {
-        width: 100%;
-        height: auto;
-    }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
 
-    .carousel.carousel-slider .carousel-item {
-        min-height: 0px;
-    }
+  .carousel.carousel-slider .carousel-item {
+    min-height: 0px;
+  }
 
-    h2 {
-        font-size: 2.5rem;
-    }
+  h2 {
+    font-size: 2.5rem;
+  }
 
-    section#artikel {
-        padding-bottom: 0px;
-    }
+  section#artikel {
+    padding-bottom: 0px;
+  }
 
-    #paket-wisata {
-        padding-bottom: 0px;
-    }
+  #paket-wisata {
+    padding-bottom: 0px;
+  }
 
-    .horizontal-list > div > div {
-        text-align: left;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
+  .horizontal-list > div > div {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
-    .horizontal-list.row .col img {
-        width: 50px;
-        display: inline;
-        margin-right: 10px;
-    }
+  .horizontal-list.row .col img {
+    width: 50px;
+    display: inline;
+    margin-right: 10px;
+  }
 
-    .horizontal-list > div > p {
-        text-align: left;
-    }
+  .horizontal-list > div > p {
+    text-align: left;
+  }
 
-    .horizontal-list.row .col h5 {
-        display: inline;
-        margin: 0;
-    }
+  .horizontal-list.row .col h5 {
+    display: inline;
+    margin: 0;
+  }
 
-    .caption {
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .caption {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .carousel.carousel-slider {
-        max-height: 200px; 
-    }
-    
-    #main-carousel .carousel.carousel-slider .carousel-item .caption h2 {
-        font-size: 1.5em;
-    }
-    
-    #main-carousel .carousel.carousel-slider .carousel-item .caption p {
-        font-size: 1.5em;
-        display: none;
-    }
-    
-    .caption-kanan {
-        padding: 0;
-        right: 0;
-        text-align: center;
-    }
+  .carousel.carousel-slider {
+    max-height: 200px;
+  }
 
-    #shortcut .horizontal-list .col {
-        border: none;
-    }
+  #main-carousel .carousel.carousel-slider .carousel-item .caption h2 {
+    font-size: 1.5em;
+  }
 
-    .destinasi-terbaru.col.s12.m4.l4 {
-        padding: 0;
-        margin-bottom: 10px;
-    }
+  #main-carousel .carousel.carousel-slider .carousel-item .caption p {
+    font-size: 1.5em;
+    display: none;
+  }
 
-    .kategori-artikel.col.s12.m12.l12.row {
-        padding: 0;
-    }
+  .caption-kanan {
+    padding: 0;
+    right: 0;
+    text-align: center;
+  }
 
-    .paket-list > div {
-        margin-bottom: 10px;
-    }
+  #shortcut .horizontal-list .col {
+    border: none;
+  }
+
+  .destinasi-terbaru.col.s12.m4.l4 {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .kategori-artikel.col.s12.m12.l12.row {
+    padding: 0;
+  }
+
+  .paket-list > div {
+    margin-bottom: 10px;
+  }
 }
